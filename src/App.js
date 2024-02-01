@@ -36,7 +36,7 @@ const handleCLick = (uniqueTitle) => {
     };
     try {
       const response = await fetch(
-        "http://localhost:8000/completions",
+        "https://mellow-sherbet-b45314.netlify.app/completions",
         options
       );
       const data = await response.json();
